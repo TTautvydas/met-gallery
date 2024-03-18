@@ -1,12 +1,13 @@
 import React from "react";
+import { Wrapper } from ".//App.style";
 import HomePage from "./HomePage/HomePage";
-
-import "./App.css";
 
 function App() {
   return (
     <div>
-      <HomePage />
+      <Wrapper>
+        <HomePage />
+      </Wrapper>
     </div>
   );
 }
